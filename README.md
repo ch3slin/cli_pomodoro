@@ -9,8 +9,13 @@ A simple command line interface (CLI) application for the Pomodoro technique. Th
 - Allows the user to specify the interval and break time in minutes
 - Plays an alarm sound when the interval or break time ends
 - Allows the user to specify a custom MP3 file to use as the alarm sound
+
+## Issues
+- The arg -f FILE_PATH creates an error if file is outside program directory.
+
 ## Requirements
 - Python 3
+
 ## Usage
 - To run the application, open a terminal window and navigate to the directory containing the pomodoro.py file. Then, run the following command:
 
